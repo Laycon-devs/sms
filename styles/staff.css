@@ -1,0 +1,49 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+h2 {
+    color: #00509E;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+
+.bio {
+    padding: 10px;
+    background: #f0f0f0;
+    border-radius: 10px;
+}
+
+.bio h3 {
+    color: #00509E;
+    margin-top: 0;
+}
+
+.bio p {
+    margin: 10px 0;
+}
+
+
+.courses {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.courses li {
+    padding: 5px 0;
+}

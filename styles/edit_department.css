@@ -1,0 +1,89 @@
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+h2 {
+    color: #00509E;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+
+form {
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+input:focus, select:focus {
+    border-color: #00509E;
+    outline: none;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #00509E;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #003f7c;
+}
+
+
+p {
+    margin: 0;
+    color: red;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background: #00509E;
+    color: white;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+tr:hover {
+    background: #f0f0f0;
+}

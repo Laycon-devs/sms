@@ -1,0 +1,48 @@
+
+h2 {
+    color: #00509E;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+
+form {
+    margin-bottom: 30px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    background: white;
+    cursor: pointer;
+}
+
+select:focus {
+    border-color: #00509E;
+    outline: none;
+}
+
+
+button {
+    padding: 10px 20px;
+    background: #00509E;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #004080;
+}
